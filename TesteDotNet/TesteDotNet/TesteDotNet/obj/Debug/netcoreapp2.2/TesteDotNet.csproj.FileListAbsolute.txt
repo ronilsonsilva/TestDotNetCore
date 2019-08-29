@@ -20,3 +20,14 @@ C:\Users\CONVESTE\source\repos\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\net
 C:\Users\CONVESTE\source\repos\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.AssemblyInfo.cs
 C:\Users\CONVESTE\source\repos\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.dll
 C:\Users\CONVESTE\source\repos\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.pdb
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.deps.json
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.runtimeconfig.json
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.runtimeconfig.dev.json
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.dll
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.pdb
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.csproj.CoreCompileInputs.cache
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.AssemblyInfoInputs.cache
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.AssemblyInfo.cs
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.dll
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.pdb
+C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.csprojAssemblyReference.cache

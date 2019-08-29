@@ -60,13 +60,15 @@ namespace TesteDotNet
 
 
             Console.WriteLine("============= Seja bem vindo! =============");
-            ExibirMenu();
+            
 
             ConsoleKeyInfo consoleKey;
-            consoleKey = Console.ReadKey();
             
-            while(consoleKey.Key != ConsoleKey.Escape)
+
+            do
             {
+                ExibirMenu();
+                consoleKey = Console.ReadKey(true);
                 String entrada = consoleKey.KeyChar.ToString();
                 switch (entrada)
                 {
@@ -82,12 +84,19 @@ namespace TesteDotNet
                     case "4":
                         entradaDados.Divisao();
                         break;
+                    case "5":
+                        entradaDados.Media();
+                        break;
+                    case "6":
+                        entradaDados.MediaDosPares();
+                        break;
                     default:
-                        Console.WriteLine("Entrada inválida. Para prosseguir escolha uma das opção do menu:");
-                        ExibirMenu();
+                        Console.WriteLine("Entrada inválida. Para prosseguir escolha uma das opção do menu.");
                         break;
                 }
-            }
+                Console.WriteLine("Pressione qualquer tecla para continuar ou ESC para sair...\n");
+                consoleKey = Console.ReadKey(true);
+            } while (consoleKey.Key != ConsoleKey.Escape);
 
             Console.WriteLine("Obrigado por utilizar nossa calculadora...");
             Thread.Sleep(2000);
@@ -103,6 +112,8 @@ namespace TesteDotNet
                 Console.WriteLine("\t2 - SUBTRAÇÃO");
                 Console.WriteLine("\t3 - MULTIPLICAÇÃO");
                 Console.WriteLine("\t4 - DIVISÃO");
+                Console.WriteLine("\t5 - MÉDIA");
+                Console.WriteLine("\t6 - MÉDIA DOS PARES");
                 Console.WriteLine("\tESC - ENCERRAR");
             }
             catch (Exception exception)

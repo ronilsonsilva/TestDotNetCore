@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CONVESTE\\source\\repos\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
+      "projectUniqueName": "C:\\Users\\CONVESTE\\Source\\Repos\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
       "projectName": "TesteDotNet",
-      "projectPath": "C:\\Users\\CONVESTE\\source\\repos\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
+      "projectPath": "C:\\Users\\CONVESTE\\Source\\Repos\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
       "packagesPath": "C:\\Users\\CONVESTE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CONVESTE\\source\\repos\\TesteDotNet\\TesteDotNet\\TesteDotNet\\obj\\",
+      "outputPath": "C:\\Users\\CONVESTE\\Source\\Repos\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
