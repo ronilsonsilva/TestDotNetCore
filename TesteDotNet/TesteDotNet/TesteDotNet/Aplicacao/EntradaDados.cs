@@ -27,7 +27,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw exception;
+                Console.WriteLine($"Erro no método Soma. SISTEMA DIZ: {exception.Message} ");
             }
         }
 
@@ -45,7 +45,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw exception;
+                Console.WriteLine($"Erro no método Subtracao. SISTEMA DIZ: {exception.Message} ");
             }
         }
 
@@ -63,7 +63,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw exception;
+                Console.WriteLine($"Erro no método Multiplicacao. SISTEMA DIZ: {exception.Message} ");
             }
         }
 
@@ -81,7 +81,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw exception;
+                Console.WriteLine($"Erro no método Divisao. SISTEMA DIZ: {exception.Message} ");
             }
         }
 
@@ -99,7 +99,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw exception;
+                Console.WriteLine($"Erro no método Media. SISTEMA DIZ: {exception.Message} ");
             }
         }
 
@@ -117,7 +117,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw exception;
+                Console.WriteLine($"Erro no MediaDosPares. SISTEMA DIZ: {exception.Message} ");
             }
         }
     }
