@@ -59,16 +59,18 @@ namespace TesteDotNet
             EntradaDados entradaDados = new EntradaDados();
 
 
-            Console.WriteLine("============= Seja bem vindo! =============");
-            
+            Console.WriteLine("============= Seja bem vindo! =============", Console.ForegroundColor = ConsoleColor.Green);
+            Console.ForegroundColor = ConsoleColor.White;
 
             ConsoleKeyInfo consoleKey;
-            
-
             do
             {
                 ExibirMenu();
                 consoleKey = Console.ReadKey(true);
+
+                if (consoleKey.Key == ConsoleKey.Escape)
+                    break;
+
                 String entrada = consoleKey.KeyChar.ToString();
                 switch (entrada)
                 {
@@ -90,6 +92,9 @@ namespace TesteDotNet
                     case "6":
                         entradaDados.MediaDosPares();
                         break;
+                    case "7":
+                        entradaDados.MediaDosPares();
+                        break;
                     default:
                         Console.WriteLine("Entrada inválida. Para prosseguir escolha uma das opção do menu.");
                         break;
@@ -98,7 +103,7 @@ namespace TesteDotNet
                 consoleKey = Console.ReadKey(true);
             } while (consoleKey.Key != ConsoleKey.Escape);
 
-            Console.WriteLine("Obrigado por utilizar nossa calculadora...");
+            Console.WriteLine("Obrigado por utilizar nossa calculadora...", Console.ForegroundColor = ConsoleColor.Green);
             Thread.Sleep(2000);
             return;
         }
@@ -114,6 +119,7 @@ namespace TesteDotNet
                 Console.WriteLine("\t4 - DIVISÃO");
                 Console.WriteLine("\t5 - MÉDIA");
                 Console.WriteLine("\t6 - MÉDIA DOS PARES");
+                Console.WriteLine("\t7 - LER ARQUIVO");
                 Console.WriteLine("\tESC - ENCERRAR");
             }
             catch (Exception exception)

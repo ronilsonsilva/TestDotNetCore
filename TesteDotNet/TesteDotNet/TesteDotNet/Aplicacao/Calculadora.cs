@@ -32,7 +32,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw new Exception($"Erro ao realizar operação de soma. {exception.Message}");
+                throw new Exception($"Erro ao realizar operação de soma. \nVALORES INSERIDO: {String.Join("+",dados)}\nMensagem do sistema: {exception.Message}");
             }
         }
         
@@ -52,7 +52,7 @@ namespace TesteDotNet.Aplicacao
             }   
             catch (Exception exception)
             {
-                throw new Exception($"Erro ao realizar operação de subtração. {exception.Message}");
+                throw new Exception($"Erro ao realizar operação de subtração. \nVALORES INSERIDO: {numA} - {numB}\nMensagem do sistema: {exception.Message}");
             }
         }
 
@@ -70,7 +70,7 @@ namespace TesteDotNet.Aplicacao
             }   
             catch (Exception exception)
             {
-                throw new Exception($"Erro ao realizar operação de multiplicação. {exception.Message}");
+                throw new Exception($"Erro ao realizar operação de multiplicação. \nVALORES INSERIDO: {numA}*{numB}\nMensagem do sistema: {exception.Message}");
             }
         }
 
@@ -90,7 +90,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw new Exception($"Erro ao realizar operação de divisão. {exception.Message}");
+                throw new Exception($"Erro ao realizar operação de divisão. \nVALORES INSERIDO: {dividendo}/{divisor}\nMensagem do sistema: {exception.Message}");
             }
         }
 
@@ -121,7 +121,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw new Exception($"Erro ao calular média. {exception.Message}");
+                throw new Exception($"Erro ao calular média.\nVALORES INSERIDO: [{String.Join(",",dados)}]\nMensagem do sistema: {exception.Message}");
             }
         }
         
@@ -159,7 +159,7 @@ namespace TesteDotNet.Aplicacao
             }
             catch (Exception exception)
             {
-                throw new Exception($"Erro ao calular média. {exception.Message}");
+                throw new Exception($"Erro ao calular média.\nVALORES INSERIDO: [{String.Join(",", dados)}]\nMensagem do sistema: {exception.Message}");
             }
         }
 
