@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace TesteDotNet.Aplicacao
@@ -153,7 +154,7 @@ namespace TesteDotNet.Aplicacao
 
                 double[] numeros = entradaExpressao.Split(';').Select(x => double.Parse(x)).ToArray();
                 double resultado = this.calculadora.MediaDosPares(numeros);
-                Console.WriteLine($"Média de : [{String.Join(",", numeros)}] = {resultado}\n");
+                Console.WriteLine($"Média de : [{String.Join(",", numeros.Where(x => x%2 == 0).ToArray())}] = {resultado}\n");
             }
             catch (Exception exception)
             {
@@ -189,6 +190,25 @@ namespace TesteDotNet.Aplicacao
             catch (Exception exception)
             {
                 throw exception;
+            }
+        }
+
+        public void LerArquivo()
+        {
+            try
+            {
+                this.entradaExpressao = "";
+                Console.WriteLine("================ LER ARQUIVO 'dados.csv' ================", Console.ForegroundColor = ConsoleColor.Green);
+                Console.ForegroundColor = ConsoleColor.White;
+
+                Arquivo arquivo = new Arquivo();
+                Dictionary<string, double> resultadoArquivo = arquivo.CarregarArquivo();
+                Console.WriteLine(String.Join("\n", resultadoArquivo));
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine($"Erro no método LerArquivo. SISTEMA DIZ: {exception.Message} ", Console.ForegroundColor = ConsoleColor.Red);
+                Console.ForegroundColor = ConsoleColor.White;
             }
         }
     }

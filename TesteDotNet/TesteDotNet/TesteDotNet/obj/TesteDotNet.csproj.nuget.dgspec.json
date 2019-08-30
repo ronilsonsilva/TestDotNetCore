@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ronilson\\source\\repos\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj": {}
+    "C:\\Users\\Ronilson\\Source\\Repos\\ronilsonsilva\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ronilson\\source\\repos\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj": {
+    "C:\\Users\\Ronilson\\Source\\Repos\\ronilsonsilva\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ronilson\\source\\repos\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Ronilson\\Source\\Repos\\ronilsonsilva\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
         "projectName": "TesteDotNet",
-        "projectPath": "C:\\Users\\Ronilson\\source\\repos\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
+        "projectPath": "C:\\Users\\Ronilson\\Source\\Repos\\ronilsonsilva\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\TesteDotNet.csproj",
         "packagesPath": "C:\\Users\\Ronilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ronilson\\source\\repos\\TesteDotNet\\TesteDotNet\\obj\\",
+        "outputPath": "C:\\Users\\Ronilson\\Source\\Repos\\ronilsonsilva\\TestDotNetCore\\TesteDotNet\\TesteDotNet\\TesteDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

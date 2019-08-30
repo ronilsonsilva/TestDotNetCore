@@ -31,3 +31,14 @@ C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNe
 C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.dll
 C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.pdb
 C:\Users\CONVESTE\Source\Repos\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.csprojAssemblyReference.cache
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.deps.json
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.runtimeconfig.json
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.runtimeconfig.dev.json
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.dll
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\bin\Debug\netcoreapp2.2\TesteDotNet.pdb
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.csprojAssemblyReference.cache
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.AssemblyInfoInputs.cache
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.AssemblyInfo.cs
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.dll
+C:\Users\Ronilson\Source\Repos\ronilsonsilva\TestDotNetCore\TesteDotNet\TesteDotNet\TesteDotNet\obj\Debug\netcoreapp2.2\TesteDotNet.pdb

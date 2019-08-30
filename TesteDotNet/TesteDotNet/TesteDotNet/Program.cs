@@ -93,7 +93,7 @@ namespace TesteDotNet
                         entradaDados.MediaDosPares();
                         break;
                     case "7":
-                        entradaDados.MediaDosPares();
+                        entradaDados.LerArquivo();
                         break;
                     default:
                         Console.WriteLine("Entrada inválida. Para prosseguir escolha uma das opção do menu.");
